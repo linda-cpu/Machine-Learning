@@ -1,18 +1,16 @@
-## Getting Started
+# Traffic Sign Recognition - Machine Learning Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Dieses Projekt entstand im Rahmen des Moduls **Maschinelles Lernen** (Master Informatik, Semester 1). Ziel ist die Erkennung und Klassifizierung von Verkehrszeichen.
 
-## Folder Structure
+## 🚀 Projektstatus
+Das Repository enthält den Java-Quellcode für die Vorverarbeitung und die Trainings-Logik. **Wichtig:** Aufgrund der Dateigröße sind die Datensätze (Bilder & JSON-Dateien) nicht im Repository enthalten.
 
-The workspace contains two folders by default, where:
+## 📂 Struktur
+* `src/main/java`: Enthält die Java-Klassen (Preprocessing, Modelle, Utility).
+* `src/main/resources/json/`: (Lokal) Speicherort für die generierten JSON-Datensätze.
+* `src/main/resources/images/`: (Lokal) Speicherort für die Trainingsbilder.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🧠 Implementierte Aufgaben
+* **Task 1:** Preprocessing der Bilddaten.
+* **Task 2:** Supervised Learning (Klassifizierung).
+* **Task 3:** Unsupervised Learning (Clustering der Verkehrszeichen).
